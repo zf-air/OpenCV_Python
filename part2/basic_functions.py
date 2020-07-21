@@ -4,7 +4,7 @@ import numpy as np
 # 定义kernel,用于膨胀
 kernel = np.ones((5, 5), dtype=np.uint8)
 
-img = cv2.imread('part2/lena.png')
+img = cv2.imread('lena.png')
 # 转灰度
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
